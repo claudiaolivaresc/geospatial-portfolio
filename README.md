@@ -1,3 +1,5 @@
+# Note to the reader: these are examples based of what I built in the past years. The original projects are private due to agreements with former employers.
+
 # Geospatial and Data Science Portfolio Examples
 
 Four small, self-contained projects. Each one demonstrates a single technique end to end, with a notebook for the analysis, a tested Python module for the logic, and a README written for a quick review.
