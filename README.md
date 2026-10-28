@@ -1,6 +1,6 @@
 # Geospatial and Data Science Portfolio Examples
 
-Three small, self-contained projects. Each one demonstrates a single technique end to end, with a notebook for the analysis, a tested Python module for the logic, and a README written for a quick review.
+Four small, self-contained projects. Each one demonstrates a single technique end to end, with a notebook for the analysis, a tested Python module for the logic, and a README written for a quick review.
 
 **All data is synthetic and generated in code with fixed seeds.** The projects show how the methods behave. They are not validated analyses of real sites or satellite products, and no results here should be read as real-world findings.
 
@@ -9,6 +9,7 @@ Three small, self-contained projects. Each one demonstrates a single technique e
 | [Monte Carlo uncertainty](project-01-monte-carlo-uncertainty/) | Uncertainty propagation for a gridded estimate | Correlated sampling via Cholesky factor; independent versus fully shared spatial error; P90/P50/P10 reporting; GeoTIFF grid-alignment checks |
 | [Weighted-overlay site ranking](project-02-weighted-overlay/) | Spatial multi-criteria ranking and its stability | CRS-aware distances in metres; min-max normalisation with NaN masking; weight sweep with rank-correlation and top-set overlap |
 | [Unsupervised VOD clustering](project-03-vod-unsupervised/) | Clustering with leakage-safe evaluation | Spatial train/test split with buffer; scaler and PCA fitted on training data only; silhouette-based choice of k; single-band baseline; seed stability |
+| [Capacity-constrained spatial clustering](project-04-constrained-spatial-clustering/) | Balanced spatial partitioning and network cost | Capacitated k-means with exact min-cost assignment (Hungarian algorithm); MST cabling estimate; diameter trade-off across layouts |
 
 ## Common standards
 
